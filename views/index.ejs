@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <header class="w-full text-center bg-zinc-800 text-white py-4 shadow-lg">
+        <h1 class="text-2xl font-bold tracking-wide">♟ Online Chess Game</h1>
+    </header>
+
+    <div class = "w-full h-screen flex items-center justify-center bg-zinc-900">
+        <div class = "chessboard w-96 h-96 bg-red-400"></div>
+    </div>
+
+    <script src = "https://cdn.socket.io/4.8.1/socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    <script src = "/javascripts/chessgame.js"></script>
+</body>
+</html>
